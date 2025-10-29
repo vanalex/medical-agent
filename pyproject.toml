@@ -1,0 +1,15 @@
+[project]
+name = "medical-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "langchain>=1.0.2",
+    "langchain-community>=0.4.1",
+    "langchain-openai>=1.0.1",
+    "langchain-tavily>=0.2.12",
+    "langgraph>=1.0.1",
+    "openai>=2.6.1",
+    "xmltodict>=1.0.2",
+]
